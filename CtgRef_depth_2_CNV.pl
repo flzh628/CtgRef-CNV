@@ -7,7 +7,7 @@
 Script_Name:
 
 =for text
-	Name: slidWinDp2CNVs.pl
+	Name: CtgRef_depth_2_CNV.pl
 	Note: The core script of CtgRef-CNV pipeline to Call && Filter CNVs.
 
 =head1	Description:
@@ -30,7 +30,7 @@ Script_Name:
 
 =head1	Usage:
 
-slidWinDp2CNVs.pl [options]
+CtgRef_depth_2_CNV.pl [options]
 
 	-in	slidWinDp-Res
 	-bin	size of slid-Win (bp)
@@ -50,7 +50,7 @@ slidWinDp2CNVs.pl [options]
 =head1 Example:
 
 =for text
-	slidWinDp2CNVs.pl -in slidWinDp -bin 250 -minlen 1000 -dpcv DpthCvrg -dir CNV-Dir -bam Bam -all -algn nucmer-flt \ 
+	CtgRef_depth_2_CNV.pl -in slidWinDp -bin 250 -minlen 1000 -dpcv DpthCvrg -dir CNV-Dir -bam Bam -all -algn nucmer-flt \ 
 			      -fltdir CNV-flt-Dir -r Os7-Rep-Pos -chrArr Chr1,Chr2,Chr3 
 
 =head1
