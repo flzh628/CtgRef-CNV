@@ -1,7 +1,7 @@
 # CtgRef-CNV
 CNV calling method based on assembly and read depth of NGS data
 
-1. De novo assembly of each accession based on the high depth (~50X) of NGS reads.
+1. De novo assembly of each accession based on the NGS data of high depth (~50X).
 
 2. Mapping NGS reads to its assemblied genome (contig length >= 1000 bp) to calculate the depth along contigs.
 
